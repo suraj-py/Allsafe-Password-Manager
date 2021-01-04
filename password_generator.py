@@ -1,6 +1,5 @@
 import random
 
-from prettytable import PrettyTable
 # Setting password lenght
 PASSWORD_LENGHT = 12
 
