@@ -3,7 +3,6 @@ import os
 from hash_maker import hash_password, get_hash_password, convertTuple
 
 # Creating connection to the database
-# change password to env variable
 def connect():
     try:
         conn = psycopg2.connect(
