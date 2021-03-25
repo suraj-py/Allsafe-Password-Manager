@@ -42,7 +42,7 @@ def login():
     print(CYAN + '* * * * Log In * * * *')
     print(GREEN)
     email_id = input('Please provide your email address : ')
-    master_password = input('Create a strong master password : ')
+    master_password = input('Enter your master password : ')
 
     # Checking Enter password with hash password
     result = getHash(email_id, master_password)
